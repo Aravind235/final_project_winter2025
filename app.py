@@ -14,7 +14,8 @@ st.markdown("An interactive dashboard exploring terrorist attacks from **1970 to
 @st.cache_data
 def load_data():
     # Load dataset (adjust filename if necessary)
-    df = pd.read_csv('./archive/globalterrorismdb_0718dist.csv', encoding='ISO-8859-1', low_memory=False)
+    # df = pd.read_csv('./archive/globalterrorismdb_0718dist.csv', encoding='ISO-8859-1', low_memory=False)
+    df = pd.read_csv('global_terror_LITE.zip', compression='zip', encoding='ISO-8859-1', low_memory=False)
     
     # Cleaning & Renaming
 
@@ -128,4 +129,5 @@ with row2_col2:
     st.plotly_chart(fig_targets, use_container_width=True)
 
 # --- 6. Footer ---
+
 st.markdown("Data Source: Global Terrorism Database (GTD) | Final Project Winter 2025 | Aravind Kagganti Anjinamurthy")
