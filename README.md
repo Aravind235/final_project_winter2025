@@ -81,6 +81,7 @@ The dashboard will open automatically in your browser at http://localhost:8501.
 ├── Global Terrorism Analysis.ipynb  # The Jupyter Notebook with full analysis
 ├── archive
 │   ├── globalterrorismdb_0718dist.csv   # The Dataset (Not included in repo)
+├── global_terror_LITE.zip      # zipfile of lite version of dataset(As full dataset is very large)
 ├── README.md                   # Project documentation
 └── requirements.txt            # List of dependencies
 ```
@@ -93,4 +94,5 @@ Institution: University of Europe for Applied Sciences (UE)
 
 
 Disclaimer: This project is for educational purposes only. The data deals with sensitive topics regarding global conflict and violence.
+
 
