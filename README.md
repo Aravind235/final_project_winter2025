@@ -52,7 +52,8 @@ streamlit run app.py
 ```
 The dashboard will open automatically in your browser at http://localhost:8501.
 
-📊 Key Analytical Questions Solved
+## 📊 Key Analytical Questions Solved
+
 1.  Global Trends: How has the frequency of attacks changed from 1970 to 2017?
 
 2.  Geospatial Hotspots: Which regions suffer the most casualties?
@@ -73,11 +74,13 @@ The dashboard will open automatically in your browser at http://localhost:8501.
 
 10. Mapping Terror: An interactive map of high-casualty events.
 
-📁 Project Structure
+## 📁 Project Structure
+
 ```bash
-├── app.py                      # The Streamlit dashboard source code
+├── app.py                     # The Streamlit dashboard source code
 ├── Global Terrorism Analysis.ipynb  # The Jupyter Notebook with full analysis
-├── globalterrorismdb_0718dist.csv   # The Dataset (Not included in repo)
+├── archive
+│   ├── globalterrorismdb_0718dist.csv   # The Dataset (Not included in repo)
 ├── README.md                   # Project documentation
 └── requirements.txt            # List of dependencies
 ```
@@ -90,3 +93,4 @@ Institution: University of Europe for Applied Sciences (UE)
 
 
 Disclaimer: This project is for educational purposes only. The data deals with sensitive topics regarding global conflict and violence.
+
