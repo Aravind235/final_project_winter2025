@@ -74,17 +74,19 @@ The dashboard will open automatically in your browser at http://localhost:8501.
 10. Mapping Terror: An interactive map of high-casualty events.
 
 📁 Project Structure
+```bash
 ├── app.py                      # The Streamlit dashboard source code
 ├── Global Terrorism Analysis.ipynb  # The Jupyter Notebook with full analysis
 ├── globalterrorismdb_0718dist.csv   # The Dataset (Not included in repo)
 ├── README.md                   # Project documentation
 └── requirements.txt            # List of dependencies
-
+```
 📜 Author
 Name: Aravind Kagganti Anjinamurthy
 
 Course: Final Project - Winter 2025/2026
 
 Institution: University of Europe for Applied Sciences (UE)
+
 
 Disclaimer: This project is for educational purposes only. The data deals with sensitive topics regarding global conflict and violence.
